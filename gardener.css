@@ -1,0 +1,155 @@
+body {
+	background-color: green;
+	color: white;
+	font-family: "Avenir", "Helvetica", "Arial";
+	background-color: #222222;
+	color: white;
+	text-align: center;
+}
+
+a {
+	color: white;
+}
+
+p {
+	font-size: 12pt;
+}
+
+#header p {
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+#gardener_map {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+#gardener_map td {
+	font-family: courier, monospace;
+	padding: 0 0 0 0;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 8px;
+}
+
+.zone_0 {
+	color: #B37509;
+	background-color: #784D03;
+}
+
+.zone_1 {
+	/*building*/
+	color: white;
+	background-color: black;
+}
+
+.zone_2 {
+	/*cliff*/
+	color: #ADADAD;
+	background-color: #333333;
+}
+
+.zone_3 {
+	/*wall*/
+	color: #D65400;
+	background-color: #973D02;
+}
+
+.zone_4 {
+	/*water*/
+	color: #5878FC;
+	background-color: #3159FF;
+}
+
+.zone_5 {
+	/*trees*/
+	color: #1FAD00;
+	background-color: #136700;
+}
+
+.zone_6 {
+	/*brick road*/
+	color: #CDBA00;
+	background-color: #D89700;
+}
+
+.zone_7 {
+	/*rock*/
+	color: #222222;
+	background-color: #222222;
+}
+
+.zone_8 {
+	/*neutral gravel*/
+	color: #E5E5E5;
+	background-color: #E5E5E5;
+}
+
+.zone_9 {
+	/*disturbed gravel*/
+	color: #757575;
+	background-color: #757575;
+}
+
+.zone_10 {
+	/*raked gravel*/
+	color: #8796A5;
+	background-color: #8796A5;
+}
+
+.gardener {
+	color: orange;
+	background-color: orange;
+}
+
+#haiku {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+#gameidea {
+	display: flex;
+	justify-content: space-around;
+	text-align: left;
+	font-size: 8pt;
+}
+
+#haiku p {
+	font-size: 10pt;
+}
+
+#map_button {
+	float: right;
+	margin-top: -70px;
+	margin-right: 20px;
+	font-size: 20pt;
+}
+
+#cover_div {
+	display: none;
+	background-color: black;
+	width: 100%;
+	height: 100%;
+	opacity: 0.95;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	z-index: 10;
+	text-align: center;
+}
+
+#mini_map {
+	border-collapse: collapse;
+	opacity: 1;
+	margin: 50px auto;
+	text-align: center;
+	z-index: 20;
+}
+
+#mini_map td {
+	/*border-collapse: collapse;*/
+	padding: 0;
+	margin: 0;
+}

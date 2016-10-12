@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<meta http-equiv="Content-Language" content="en-gb" />
+<title>Zen Gardener</title>
+<link rel="Start" href="/" />
+<link rel="stylesheet" type="text/css" href="gardener.css" />
+<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+</head>
+<body>
+	<div id="game_div">
+		<div id="cover_div"></div>
+		<div id="header" style="display: flex; justify-content: space-around;">
+			<h1 style="order: 2">Zen Gardener</h1>
+			<p id="timer" style="order: 1">x</p>
+			<p class="mini_map_link" style="order: 3">░░░ Enlightenment ░░░</p>
+		</div>
+		<table id="gardener_map"></table>
+		<table id="minimap"></table>
+		<div id="haiku">
+			<p>You are gardener (<span style="color: orange; background-color: none">■</span>)<br />local samurai (<span style="color: purple; background-color: none">■</span>) comes soon<br />make sure all is clean.</p>
+			<p>The other monks (<span style="color: orange; background-color: none">●</span>) made<br />a big mess having it large<br />on the astral plane.</p>
+			<p>Tidy up gardens (<span style="color: #E5E5E5; background-color: none">■</span> and <span style="color: #757575; background-color: none">■</span>)<br />to match the picture on map (<span style="font-size: 8pt">░░</span> or <span style="text-decoration: underline">m</span>)<br />before time runs out.</p>
+			<p>Move mouse or finger</br>and smoothe gravel as you go</br>unless click or touch.</p>
+		</div>
+		<p id="credit">Made by <a href="http://www.dinotash.com">Tom Curtis</a> in 72 hours for the <a href="https://itch.io/jam/the-pippin-barr-game-idea-game-jam">Pippin Barr game idea jam</a>. Works better with a mouse.</p>
+		<p id="gameidea">░░░ GAME IDEA<br />░<br />░░░░ USE THE D-PAD<br />░<br />░░ TO FIND YOUR INNER ZEN GARDEN<br />░<br />░░░ RAKE IT WITH THE ANALOG STICK<br />░<br />░░ RAPIDLY PRESS X TO MEDITATE</p>
+		<script type="text/javascript" src="gardener.js"></script>
+	</div>
+
+</body>
+</html>
